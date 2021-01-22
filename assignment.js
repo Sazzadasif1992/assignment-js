@@ -1,7 +1,12 @@
+// https://github.com/Sazzadasif1992/assignment-js
+
+
+
 // kilometerToMeter start
 
-    function kilometerToMeter(converMeter){
-        var meter = converMeter*1000;
+
+    function kilometerToMeter(convertMeter){
+        var meter = convertMeter*1000;
         return meter;
     }
 
