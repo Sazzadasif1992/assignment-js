@@ -63,20 +63,16 @@
 
 // megaFriend start
 
-        function megaFriend(friendsName){
-            
-                var max = friendsName[0];
-                for ( var i = 0; i< friendsName.length; i++){
-                    var element = friendsName[i];
-                    if (element > max){
-                        max = element;
-                    }
-                    
+        function megaFriend(friendNames) {
+            var max = friendNames[0];
+            for (var i = 0; i < friendNames.length; i++) {
+                var element = friendNames[i];
+                if (max.length < element.length) {
+                    max = element;
                 }
-
-                return max;
-         }
-        var names = ['aaabbbd','bacdedtdfdfghhhffdf','hegeyhfuy','hahfiegbfi'];
-        var result = megaFriend(names);
-        console.log(result);
+            }
+            return max;
+        }
+       
+        
         // megaFriend end
