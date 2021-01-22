@@ -9,6 +9,7 @@
         var meter = convertMeter*1000;
         return meter;
     }
+   
 
 // kilometerToMeter end
 
@@ -29,8 +30,8 @@
         total = watch + mobile + laptop;
         return total;
     }
+   
 // budgetCalculator end
-
 
 
 
@@ -59,6 +60,7 @@
         }
         return hotelCost;
     }
+    
 
 
 // hotelCost end
@@ -78,6 +80,6 @@
             }
             return max;
         }
-       
+        
         
         // megaFriend end
